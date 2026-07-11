@@ -9,7 +9,6 @@ if [ $# -eq 0 ]; then
 backup_usage
 fi
 
-
 source_dir=$1
 destination_dir=$2
 timestamp=$(date '+%Y-%m-%d-%H-%M-%S')
